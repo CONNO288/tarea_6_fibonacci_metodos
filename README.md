@@ -2,7 +2,7 @@
 
 # Name Repository 
 
-> https://github.com/CONNO288/tarea-funciones
+>https://github.com/CONNO288/tarea_6_fibonacci_metodos
 
 ## Built With
 
