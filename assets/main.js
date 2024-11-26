@@ -47,4 +47,43 @@ function serie_Fibonacci_Impar(limit) {
 console.log(serie_Fibonacci_Impar(1000));
 
 //2. Retornar otro arreglo con todo en mayúscula
+let pokemon = ['Pikachu','Charmander','Bulbasaur','Squirtle']
+let pokemonEnMayus = pokemon.map(element => element.toUpperCase());
+
+console.log(pokemonEnMayus);
+
 //3. Retornar otro arreglo con los pokemon tipo fuego
+let pokemon2 = [
+
+    {
+        nombre: 'Pikachu',
+        tipo: 'Electrico'
+    },
+    {
+        nombre: 'Charmander',
+        tipo: 'Fuego',
+    },
+    {
+        nombre: 'Bulbasaur',
+        tipo: 'Planta'
+    },
+    {
+        nombre: 'Squirtle',
+        tipo: 'Agua'
+    },
+    {
+        nombre: 'Charmeleon',
+        tipo: 'Fuego'
+    },
+    {
+        nombre: 'Weedle',
+        tipo: 'bicho'
+    },
+    {
+        nombre: 'Charizard',
+        tipo: 'Fuego'
+    }
+]
+
+let pokemonTipoFuego = pokemon2.filter(element => element.tipo === 'Fuego');
+console.log(pokemonTipoFuego);
